@@ -106,7 +106,7 @@ var queryURLUV = "https://api.openweathermap.org/data/2.5/uvi?&appid=ecc0be5fd92
             else if(uvlresults >=8 && uvlresults<= 10 ){
                 uvlEl.attr("style", "background-color: red");
             }
-            else if (uvlresults > 11){
+            else if (uvlresults >= 11){
                 uvlEl.attr("style", "background-color: purple");
             }
         });
